@@ -9,7 +9,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 // http://stackoverflow.com/a/34015469/988941
 injectTapEventPlugin();
 // Custom
-import NewsList from '../containers/NewsList';
+import NewsView from '../containers/NewsView';
 import reducer from '../reducers';
 
 const store = createStore(reducer);
@@ -19,7 +19,7 @@ const App = () => {
     <MuiThemeProvider>
     {/*<MuiThemeProvider store={store}>*/}
       <Provider store={store}>
-        <NewsList />
+        <NewsView />
       </Provider>
     </MuiThemeProvider>
   );
