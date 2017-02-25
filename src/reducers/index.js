@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import news from './news';
+import leftMenu from './leftMenu';
+import newsList from './newsList';
 
 const newsPaper = combineReducers({
-    news
+    leftMenu,
+    newsList,
 });
 
 export default newsPaper;
