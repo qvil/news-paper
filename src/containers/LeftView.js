@@ -14,7 +14,7 @@ const mapDispatchToProps = (dispatch) => ({
 
 const LeftView = connect(
     mapStateToProps,
-    mapDispatchToProps
+    // mapDispatchToProps
 )(LeftMenu);
 
 export default LeftView;
