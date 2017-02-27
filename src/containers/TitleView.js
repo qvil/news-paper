@@ -8,14 +8,9 @@ const styles = {
     textAlign: "center"
 }
 
-const props = {
-    title: "seowon",
-    zDepth: 2,
-    iconClassNameRight: "muidocs-icon-navigation-expand-more"
-}
-
 const mapStateToProps = (state) => ({
-    leftMenu: state.leftMenu
+    leftMenu: state.leftMenu,
+    titleMenu: state.titleMenu,
 });
 
 // const mapDispatchToProps = (dispatch) => ({

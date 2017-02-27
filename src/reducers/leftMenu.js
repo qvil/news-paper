@@ -15,3 +15,5 @@ const leftMenu = (state = initLeftMenuState, action) => {
             return state;
     }
 };
+
+export default leftMenu;

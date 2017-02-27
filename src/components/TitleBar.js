@@ -3,11 +3,10 @@ import { connect } from 'react-redux';
 import AppBar from 'material-ui/AppBar';
 import { toggleLeftMenu } from '../actions';
 
-let TitleBar = ({ styles, props, onLeftMenuClick }) => (
+let TitleBar = ({ onLeftMenuClick, titleMenu }) => (
     <AppBar
-        style={styles}
         onLeftIconButtonTouchTap={onLeftMenuClick}
-        {...props}
+        {...titleMenu}
     />
 );
 
